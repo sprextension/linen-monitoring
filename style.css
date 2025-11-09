@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f6f6f6;
+  background: #f8f9fb;
   color: #222;
   margin: 20px;
 }
@@ -24,7 +24,7 @@ section {
 }
 
 .bed {
-  background: #eef;
+  background: #eef4ff;
   padding: 8px;
   border-radius: 6px;
 }
@@ -33,6 +33,8 @@ input {
   width: 100%;
   padding: 5px;
   margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .buttons {
@@ -52,5 +54,11 @@ button {
 }
 
 button:hover {
-  background: #1e5fd1;
+  background: #1f5ed1;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #555;
 }
